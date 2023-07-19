@@ -181,11 +181,63 @@ nav ul li {
     display:flex;
     justify-content: center;
     margin-top: 30px;
+    
 }
 .online-game p{
     color: #534C64;
     font-weight: 500;
     line-height: 20px;
+}
+
+.img-container{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 96.5%;
+    margin: 3px;
+    background-color: rgba(0, 0, 0, 0.541);
+    opacity: 0;
+  }
+
+.img-container .play-button i{
+    position: absolute;
+    font-size: 50px;
+    top: 115px;
+    left: 90px;
+}
+
+.img-container .play-button p{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    text-align: left;
+    color: #FF42A5;
+}
+
+.img-container .play-button{
+    display: none;
+}
+
+.img-container:hover .overlay{
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.img-container:hover .play-button{
+    display: block;
+}
+
+.img-container:hover img{
+    border: 3px solid #F948B2;
+    border-radius: 13px;
+}
+
+.play-instantly-container{
+    display: flex;
 }
 
 
