@@ -238,9 +238,48 @@ nav ul li {
 
 .play-instantly-container{
     display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
 }
 
+.play-instantly-content{
+    width: 290px;
+    margin: auto 100px auto 200px;
+    text-align: right;
+}
 
+.play-instantly-content h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.play-instantly-content h3 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-content p{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.play-instantly-img{
+    position: relative;
+    margin-left: 90px;
+
+}
+.play-instantly-img .instantly-1{
+    width: 80%;
+}
+
+.play-instantly-img .instantly-2{
+    position: absolute;
+    top: 300px;
+    left: -110px;
+    width: 35%;
+}
 
 
 
